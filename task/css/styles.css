@@ -1,0 +1,111 @@
+@import url("normalize.css");
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: sanserif;
+}
+.wrapper{
+	width: 600px;
+	margin: 0 auto;
+
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+table {
+	width:100%;
+}
+
+td {
+	padding: 5px;
+	border: 1px dotted #888;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+.step2 > ol, .step5 > ol {
+	list-style-type: none; 
+}
+
+.step2 li::before, .step5 li::before  {
+	content: url("../img/mark.jpg");
+	margin-right: 5px;
+}
+
+.step3 ol {
+	list-style-type: upper-alpha; 
+}
+
+.step4 ol {
+	list-style-type: decimal-leading-zero; 
+}
+
+.time {
+	color: rgb(103,78,167);
+}
+
+
+
+.header {
+	min-height: 300px;
+	position: relative;
+	
+	
+}
+.head{
+	background: #2a89c1;
+	min-height: 200px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 78px;
+	}
+
+
+.head > div {
+	position: absolute;
+	display: inline-block;
+	border: 3px solid #2a89c1;
+	border-radius: 70%;
+	left: calc(50% - 75px);
+	width: 150px;
+	bottom: -78px;
+	height:150px;
+	background: url(../img/avatar.jpg) 50% no-repeat;	
+	background-size: cover;
+	
+}
+.h-wrapper {
+	text-align: center;
+}
+.prof
+{	
+	width: 80%;
+	margin: auto;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+
+.prof section {
+	background: #dbdbdd;
+	width: 40%;	
+float: left;
+margin: 20px;
+	padding: 10px 20px;
+}
+
+.prof section:last-of-type {	
+	width: 100%;
+
+
+}
+.prof section:last-of-type:after {
+clear: both;
+
+}
+
